@@ -1,11 +1,11 @@
 <?php
 /*
-      Thanks to : 
+      Cảm ơn đặc biệt đến: 
              https://github.com/tomiashari/fb-autoreaction
              https://github.com/dfmcvn/getFBtoken
              https://github.com/tro1d/bot-reaction-gettoken
 */
-//////Modified by まやちゃん//////
+//////UPLOAD BY K90 HACK GAME MOBILE//////
 echo "\033[1;34m   _______      ___  _______  ___________ \n";
 echo "  / __/ _ )____/ _ \/ __/ _ |/ ___/_  __/ \n";
 echo " / _// _  /___/ , _/ _// __ / /__  / / \n";
