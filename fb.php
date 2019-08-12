@@ -87,13 +87,13 @@ class Reaction
 				$r_female_e	= $this->fetch_value($html,$r_females,'" style="display:block">');
 				$r_female_l	= 'https://mobile.facebook.com/ufi/reaction/?ft_ent_identifier='.$post_id[1].'&reaction_type='.$r_female. $r_female_e;
 				$this->curl($r_female_l);
-				echo "\033[1;32m [Status Cowo Dengan ID] > $post_id[1] $user_gen => REACT !!\n";
+				echo "\033[1;32m [Người có số ID] > $post_id[1] $user_gen => ĐÃ THẢ !!\n";
 			}else{
 				$r_males 	= '/ufi/reaction/?ft_ent_identifier='.$post_id[1].'&reaction_type='.$r_male;
 				$r_male_e	= $this->fetch_value($html,$r_males,'" style="display:block">');
 				$r_male_l	= 'https://mobile.facebook.com/ufi/reaction/?ft_ent_identifier='.$post_id[1].'&reaction_type='.$r_male. $r_male_e;
 				$this->curl($r_male_l);
-				echo "\033[1;32m [Status Cewe Dengan ID] > $post_id[1] => $user_gen => REACT!! \n";
+				echo "\033[1;32m [Người có số ID] > $post_id[1] => $user_gen => ĐÃ THẢ!! \n";
 			}
 			
 			$this->curl('https://mobile.facebook.com/logout.php');
