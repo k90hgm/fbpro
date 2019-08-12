@@ -1,6 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/bash
-# FB React Tools
-# by まやちゃん
+# FB AUTO BOT
+# by K90 Hack Game Mobile
 
 black='\033[1;30m'
 red='\033[1;31m'
@@ -16,17 +16,17 @@ echo -e $blue"   _______    ___               __  ";
 echo -e $blue"  / __/ _ )  / _ \___ ___ _____/ /_ ";
 echo -e $blue" / _// _ |  / , _/ -_) _  / __/ __/ ";
 echo -e $blue"/_/ /____/ /_/|_|\__/\_,_/\__/\__/ ";
-echo -e $red"              Modified by まやちゃん ";
-echo -e $green" Thanks to: ";
+echo -e $red"              UPLOAD BY K90 HACK GAME MOBILE ";
+echo -e $green" Cảm ơn đặc biệt đến: ";
 echo -e $green" https://github.com/tomiashari/fb-autoreaction";
 echo -e $green" https://github.com/dfmcvn/getFBtoken ";
 echo -e $green" https://github.com/tro1d/bot-reaction-gettoken";
 echo -e $white"\n";
 sleep 1
-echo "1 ) Input nomer atu jika kamu belum install php";
-echo "2 ) Input nomer dua jika kamu sudah install php";
-echo "99) Input nomor ini untuk keluar";
-read -p "[まやちゃん] >"  act;
+echo "1 ) Gõ số 1 nếu bạn chưa cài đặt php";
+echo "2 ) Gõ số 2 nếu bạn đã cài đặt php";
+echo "99) Gõ số 99 để thoát";
+read -p "[K90 HGM] >"  act;
 
 if [ $act = 1 ] || [ $act = 1 ]
 then
@@ -56,17 +56,17 @@ fi
 
 if [ $act = 99 ] || [ $act = 99 ]
 then
-echo -e $red'untuk kamu para pemula'
+echo -e $red'K90 HGM'
 sleep 1
-echo -e $red'jangan berhenti mencari ilmu'
+echo -e $red'K90 HGM'
 sleep 2
-echo -e $red'karna mencari topik lebih susah'
+echo -e $red'K90 HGM'
 sleep 1
 echo -e $red'(╥_╥)'
 sleep 1
-echo -e $red'sekian dari saya'
-echo -e $cyan'まやちゃん '
-echo -e $cyan'www.facebook.com/pudtraa7x'
+echo -e $red'UPLOAD BY K90 HGM'
+echo -e $cyan'Luôn học hỏi người đi trước.. '
+echo -e $cyan'www.facebook.com/profile.php?id=100006002596531'
 sleep 2
 exit
 fi
