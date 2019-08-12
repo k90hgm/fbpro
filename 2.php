@@ -1,6 +1,6 @@
 <?php
 /*
-      Thanks to : 
+      Cảm ơn đặc biệt đến: 
              https://github.com/tomiashari/fb-autoreaction
              https://github.com/dfmcvn/getFBtoken
              https://github.com/tro1d/bot-reaction-gettoken
@@ -70,7 +70,7 @@ sign_creator($data);
 $response = cURL('GET', false, $data);
 $responseJSON = json_decode($response);
 $fay = $responseJSON->access_token
-    or exit("Gagal Mengambil Token. Coba Cek Login Lalu Ijin Akses");
+    or exit("Đã lỗi xin vui lòng thử lại..");
 if ($fay==true){
 $file = fopen("token.txt","w");
 fwrite($file,$fay);
