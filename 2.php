@@ -49,7 +49,7 @@ function cURL($method = 'GET', $url = false, $data){
 	curl_close($c);
 	return $d;
 }
-include 'lib/config.php';
+include 'config.php';
 $_GET['u'] = $user;
 $_GET['p'] = $pass;
 
