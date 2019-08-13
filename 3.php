@@ -11,9 +11,9 @@ echo "  / __/ _ )____/ _ \/ __/ _ |/ ___/_  __/ \n";
 echo " / _// _  /___/ , _/ _// __ / /__  / / \n";
 echo "/_/ /____/   /_/|_/___/_/ |_\___/ /_/ \n";
 echo "\033[1m";
-require_once('lib/fb.php');
+require_once('fb.php');
 
-include 'lib/config.php';
+include 'config.php';
 $token = file_get_contents("token.txt");
 $config['cookie_file'] = 'cookie.txt';
 if (!file_exists($config['cookie_file'])) {
