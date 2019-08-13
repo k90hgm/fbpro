@@ -14,7 +14,7 @@ $r_male = "'.$r_male1.'";
 $r_female = "'.$r_female1.'";
 $max_status = "'.$max_status1.'";
 ?>';
-$file = fopen('lib/config.php','w');
+$file = fopen('config.php','w');
 fputs($file,$buat);
 fclose($file);
 echo "Sukses Disetting";
